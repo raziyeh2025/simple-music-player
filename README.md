@@ -12,6 +12,7 @@ This app can play, pause, and navigate through a fixed playlist of *local audio 
 - 🎶 Song title display
 -    Repeat functionality
 -    Responsible design
+-    Animation
 
 
 
