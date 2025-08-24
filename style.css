@@ -1,0 +1,106 @@
+    body {
+        background: linear-gradient(black, green);
+        height: 98vh;
+        color: white;
+        font-size: 18px;
+    }
+
+    @keyframes change-color {
+
+        100% {
+            color: blue;
+            padding-left: 20px;
+        }
+    }
+
+    .playing {
+        padding: 0;
+
+        animation-name: change-color;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+
+    }
+
+    .track {
+        list-style: none;
+        margin-top: 10px;
+        display: flex;
+        justify-content: space-between;
+        border: 1px solid rgb(9, 65, 3);
+        cursor: pointer;
+        border-radius: 3px;
+    } .header {
+        list-style: none;
+        margin-top: 10px;
+        display: flex;
+        justify-content: space-between;
+        font-weight: 500;
+        border: 1px solid rgb(9, 65, 3);
+        cursor: pointer;
+        border-radius: 3px;
+        color: chartreuse;
+    }
+
+    .track:hover {
+        background: yellowgreen;
+    }
+
+    #div-main {
+        display: flex;
+        justify-content: center;
+    }
+
+    #div-song {
+        margin-top: 100px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        border-radius: 3px;
+        border: 1px solid white;
+        padding: 20px;
+        width: 100ch;
+
+    }
+
+    #div-list {
+        width: 100%;
+    }
+
+    #progress-bar {
+        margin-top: 20px;
+        align-self: center;
+        display: inline;
+    }
+
+    #div-btns {
+        margin-top: 20px;
+        width: 50%;
+        display: flex;
+        justify-content: space-between;
+        align-self: center;
+        color: rgb(6, 165, 28);
+    }
+
+    button {
+        border-radius: 50%;
+        padding: 10px;
+        background: #3e6b03cc;
+        cursor: pointer;
+        font-size: 30px;
+        color: white;
+    }
+
+    button:hover {
+        background: #688202cc;
+    }
+
+    #span-repeat {
+        align-self: center;
+        cursor: pointer;
+    }
+
+    #span-file {
+        margin: 5px;
+        cursor: pointer;
+    }
