@@ -15,7 +15,6 @@
 
     .playing {
         padding: 0;
-
         animation-name: change-color;
         animation-duration: 5s;
         animation-iteration-count: infinite;
@@ -117,3 +116,4 @@
         flex: 1;
         text-align: right;
     }
+
