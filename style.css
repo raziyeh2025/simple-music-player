@@ -30,7 +30,9 @@
         border: 1px solid rgb(9, 65, 3);
         cursor: pointer;
         border-radius: 3px;
-    } .header {
+    }
+
+    .header {
         list-style: none;
         margin-top: 10px;
         display: flex;
@@ -71,6 +73,7 @@
         margin-top: 20px;
         align-self: center;
         display: inline;
+        flex: 10;
     }
 
     #div-btns {
@@ -103,4 +106,13 @@
     #span-file {
         margin: 5px;
         cursor: pointer;
+    }
+
+    ul {
+        padding: 0;
+    }
+
+    #current-time {
+        flex: 1;
+        text-align: right;
     }
